@@ -1,0 +1,4 @@
+Quero cancelar um cheque.
+Há algum problema com o cheque?
+Enganei-me no valor.
+Vou cancelar então.

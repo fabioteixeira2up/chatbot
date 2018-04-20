@@ -1,0 +1,24 @@
+﻿Gostaria de abrir uma conta no banco.
+Que tipo de conta deseja abrir (corrente ou poupança)?
+Corrente.
+Sem problema. Para abrir uma conta tem de fazer um depósito mínimo de 50€.
+Poupança.
+Sem problema. Para abrir uma conta tem de fazer um depósito mínimo de 50€.
+Quero depositar 300€.
+Vou já fazer isso por si.
+Pretende aceder aos dados da conta?
+Que dados da conta quer saber?
+Quanto dinheiro tenho?
+Tem 3 213,34€ na conta.
+Quer saber o seu saldo?
+O seu saldo é 3 213,34€.
+Quer saber quanto tem disponível na conta?
+Tem 821,79€ euros disponíveis na conta.
+Quer saber quanto representou o seu último movimento?
+O seu último movimento representou um montante de 19,99€.
+Quer saber para quem fez uma transferência?
+Fez uma transferência para Paula Sousa e Pinto.
+Quer saber de quem recebeu dinheiro?
+Recebeu dinheiro de António Macedo.
+Quer saber quando foi o seu último movimento?
+Há 16 dias que não movimenta dinheiro na conta.

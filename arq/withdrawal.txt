@@ -1,0 +1,4 @@
+Quero levantar algum dinheiro.
+Qual é o montante que deseja levantar?
+40 euros.
+Vou já fazer isso por si.

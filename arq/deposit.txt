@@ -1,0 +1,10 @@
+Quero depositar algum dinheiro.
+Vai depositar em notas ou cheque?
+Notas.
+Qual é o montante?
+100 euros.
+Vou já fazer isso por si.
+Cheque.
+Qual é o montante?
+200 euros.
+Vou já fazer isso por si.

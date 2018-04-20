@@ -1,0 +1,6 @@
+Desejo cancelar uma conta.
+Há algum problema com a conta?
+Não preciso mais da conta.
+O que deseja fazer com o dinheiro que lá tem?
+Transfira para a minha outra conta.
+Vou fazer isso.

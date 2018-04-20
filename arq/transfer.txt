@@ -1,0 +1,10 @@
+Quero transferir algum dinheiro.
+Para que conta deseja transferir?
+Para a conta corrente.
+Qual é o montante que deseja transferir?
+Quero transferir 200€.
+Feito. Deseja mais alguma coisa?
+Para a conta poupança.
+Qual é o montante que deseja transferir?
+Quero transferir 200€.
+Feito. Deseja mais alguma coisa?
