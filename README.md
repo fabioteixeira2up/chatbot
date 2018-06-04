@@ -1,4 +1,7 @@
-# chatbot
-Rabiscos de um chatbot em progresso
+# ChatBanco
+Chatbot criado para realizar serviços bancários.
 
-Bot no Telegram (ChatterBank): https://web.telegram.org/#/im?p=@chatterbank_bot
+Para compilar:
+```{r}
+python3 exp.py
+```
