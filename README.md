@@ -3,5 +3,5 @@ Chatbot criado para realizar serviços bancários.
 
 Para compilar:
 ```{r}
-python3 exp.py
+python3 main.py
 ```
