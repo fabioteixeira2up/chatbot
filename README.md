@@ -11,6 +11,16 @@ Instalar o sqlite3:
 sudo pip3 install sqlite3
 ```
 
+Instalar o requests:
+```{r}
+sudo pip3 install requests
+```
+
+Instalar o numpy:
+```{r}
+sudo pip3 install numpy
+```
+
 Para compilar:
 ```{r}
 python3 main.py
