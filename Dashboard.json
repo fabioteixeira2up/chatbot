@@ -1,0 +1,132 @@
+{
+  "properties": {
+    "lenses": {
+      "0": {
+        "order": 0,
+        "parts": {
+          "0": {
+            "position": {
+              "x": 0,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 6
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "resourceType",
+                  "value": "Microsoft.Resources/resources"
+                }
+              ],
+              "type": "Extension/HubsExtension/StartboardPartInstance/Browse",
+              "viewState": {
+                "content": {
+                  "selectableData": {}
+                }
+              }
+            }
+          },
+          "1": {
+            "position": {
+              "x": 4,
+              "y": 0,
+              "colSpan": 4,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/StartboardPartInstance/AzureProjectGettingStarted"
+            }
+          },
+          "2": {
+            "position": {
+              "x": 8,
+              "y": 0,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "id",
+                  "value": "/subscriptions/d3a8d365-e7b3-436b-ac94-fc13c366266e/resourcegroups/ChatBanco/providers/Microsoft.BotService/botServices/ChatBanco"
+                }
+              ],
+              "type": "Extension/Microsoft_Azure_BotService/PartType/ResourcePart"
+            }
+          },
+          "3": {
+            "position": {
+              "x": 4,
+              "y": 2,
+              "colSpan": 4,
+              "rowSpan": 5
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/StartboardPartInstance/GettingStarted"
+            }
+          },
+          "4": {
+            "position": {
+              "x": 8,
+              "y": 2,
+              "colSpan": 2,
+              "rowSpan": 2
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "id",
+                  "value": "/subscriptions/d3a8d365-e7b3-436b-ac94-fc13c366266e/resourcegroups/ChatBanco/providers/Microsoft.CognitiveServices/accounts/ChatBanco"
+                }
+              ],
+              "type": "Extension/Microsoft_Azure_ProjectOxford/PartType/CognitiveServicesResourcePart",
+              "asset": {
+                "idInputName": "id",
+                "type": "CognitiveServicesAccount"
+              }
+            }
+          },
+          "5": {
+            "position": {
+              "x": 0,
+              "y": 6,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [],
+              "type": "Extension/HubsExtension/StartboardPartInstance/ServicesHealthPartStart"
+            }
+          },
+          "6": {
+            "position": {
+              "x": 2,
+              "y": 6,
+              "colSpan": 2,
+              "rowSpan": 1
+            },
+            "metadata": {
+              "inputs": [
+                {
+                  "name": "selectedMenuItemId",
+                  "value": "",
+                  "isOptional": true
+                }
+              ],
+              "type": "Extension/HubsExtension/StartboardPartInstance/GalleryTileStart"
+            }
+          }
+        }
+      }
+    }
+  },
+  "name": "Dashboard",
+  "type": "Microsoft.Portal/dashboards",
+  "location": "INSERT LOCATION",
+  "tags": {
+    "hidden-title": "Dashboard"
+  },
+  "apiVersion": "2015-08-01-preview"
+}

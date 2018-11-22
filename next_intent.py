@@ -1,9 +1,9 @@
 import numpy as np
 
-matrix = open('matrix.txt').read()
-matrix = [item.split() for item in matrix.split('\n')]
-
 def next_intent(intent):
+	
+	matrix = open('matrix.txt').read()
+	matrix = [item.split() for item in matrix.split('\n')]
 
 	next_i = [""]*10
 	prob = [""]*10

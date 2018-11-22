@@ -32,7 +32,6 @@ def create_user(name):
 	    cur.execute(sql, (name,))
 	    return cur.lastrowid
 
-
 def create_account(tipo,montante,name):
     """
     Create a new account
@@ -51,6 +50,50 @@ def create_account(tipo,montante,name):
 	    cur = conn.cursor()
 	    cur.execute(sql, (tipo,montante,create_user(name),))
 	    return cur.lastrowid
+
+def saber_saldo(nome):
+
+	conn = create_connection(database)
+
+	with conn:
+	    
+		cur = conn.cursor()
+		cur.execute("""
+			SELECT DISTINCT montante
+			FROM utilizador, conta
+			WHERE utilizador_id =
+			(SELECT utilizador.id
+				FROM utilizador, conta
+				WHERE nome = ?);
+			""", (nome,))
+
+		sal = cur.fetchone()
+
+		if sal is None:
+			return 0
+		else:
+			return str(sal).strip("()").strip(",")
+
+	conn.close()
+
+def atualizar_valores(nome, montante):
+
+	conn = create_connection(database)
+
+	with conn:
+	    
+		cur = conn.cursor()
+		cur.execute("""
+			UPDATE conta
+			SET montante = ?
+			WHERE utilizador_id =
+			(SELECT utilizador.id
+				FROM utilizador, conta
+				WHERE nome = ?);
+			""", (montante, nome,))
+	
+	conn.commit()
+	conn.close()
 
 '''def create_table(conn, create_table_sql):
     """ create a table from the create_table_sql statement

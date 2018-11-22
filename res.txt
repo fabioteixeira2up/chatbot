@@ -1,11 +1,21 @@
 Agradecimentos	De nada!
 Agradecimentos	É a minha função.
 Agradecimentos	O prazer é meu.
-Apresentações	Olá, seja bem vindo!
+Agradecimentos	Não é preciso agradecer.
+Agradecimentos	Tenho todo o gosto em ajudar.
+Apresentações	Olá, seja bem-vindo!
 Apresentações	Olá, como posso ajudá-lo?
 Apresentações	Olá, é bom vê-lo de novo.
-Confirmações	Vou fazer isso por si então.
+Apresentações	Olá, que poso fazer por si?
+Apresentações	Olá, fico contente em vê-lo.
+Confirmações	Vou fazer isso por si.
+Confirmações	Farei isso então.
+Confirmações	Está bem, vou já fazer isso.
+Confirmações	Não se preocupe, que vou fazer isso por si.
+Confirmações	Pode considerar isso como feito.
 Despedidas	Estarei aqui quando voltar.
 Despedidas	Eu fico por aqui!
 Despedidas	Voltaremos a ver-nos.
+Despedidas	Quando voltar, cá estarei.
+Despedidas	Se precisar de mim, estarei aqui.
 None	Em que posso ajudar?

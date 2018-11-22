@@ -1,4 +1,6 @@
+montante_ = ""
 tipo_conta = ""
+dest = ""
 nome_ = ""
 
 def ent(r):   
@@ -9,15 +11,18 @@ def ent(r):
     nome = ""
     flag = 0
 
-    if r.json()['entities'] != []:
-        r_type = r.json()['entities'][flag]['type']
-        r_entity = r.json()['entities'][flag]['entity']
-
     for i in r.json()['entities']:
+
+        if r.json()['entities'] != []:
+            r_type = r.json()['entities'][flag]['type']
+            r_entity = r.json()['entities'][flag]['entity']
 
         if r.json()['entities'] != "":
             if r_type in "Montante":
                 montante = r_entity
+                if montante != "":
+                    global montante_
+                    montante_ = montante
             
             elif r_type in "Conta":
                 conta = r_entity
@@ -27,6 +32,9 @@ def ent(r):
             
             elif r_type in "Destinatário":
                 destinatario = r_entity
+                if destinatario != "":
+                    global dest
+                    dest = destinatario
             
             elif r_type in "Nome":
                 nome = r_entity
@@ -35,5 +43,5 @@ def ent(r):
                     nome_ = nome
             
             flag = flag + 1
-
-    return [montante, tipo_conta, destinatario, nome_]
+ 
+    return [montante_, tipo_conta, dest, nome_]

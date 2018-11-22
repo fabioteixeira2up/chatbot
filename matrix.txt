@@ -1,6 +1,5 @@
 AbrirConta			TipoConta			0.7
 AbrirConta			DizerNome			0.3
-TipoConta			DizerNome			1
 Agradecimentos		SaberSaldo			0.45
 Agradecimentos		TransferirDinheiro	0.55
 Apresentações		TransferirDinheiro	0.2
@@ -10,10 +9,9 @@ Confirmações		SaberSaldo			0.4
 Confirmações		Agradecimentos		0.6
 Despedidas			AbrirConta			0.3
 Despedidas			SaberSaldo			0.4
-Despedidas			TransferirDinheiro	0.3			
-DizerNome			SaberSaldo			0.7
-DizerNome			Agradecimentos		0.1
-DizerNome			FazerDepósito		0.2
+Despedidas			TransferirDinheiro	0.3	
+DizerNome			Agradecimentos		0.6
+DizerNome			FazerDepósito		0.4
 FazerDepósito		SaberSaldo			0.3
 FazerDepósito		Confirmações		0.7
 LevantarDinheiro	SaberSaldo			0.3
@@ -21,6 +19,8 @@ LevantarDinheiro	Confirmações		0.7
 SaberSaldo			TransferirDinheiro	0.2
 SaberSaldo			Agradecimentos		0.1
 SaberSaldo			DizerNome			0.7
+TipoConta			FazerDepósito		0.6
+TipoConta			Agradecimentos		0.4
 TransferirDinheiro	SaberSaldo			0.3
 TransferirDinheiro	Confirmações		0.7
 None				AbrirConta			0.3

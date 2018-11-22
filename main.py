@@ -33,28 +33,32 @@ while True:
         'staging': 'false',
     }
 
-    try:
+    if ex == "":
+        tmp = 0
 
-        # Request da query
-        r = requests.get(
-            'https://westeurope.api.cognitive.microsoft.com/luis/v2.0/apps/31e88306-ab6d-475f-979b-a2d8920a1664',
-            headers = headers,
-            params = params)
+    else:
+        try:
 
-        # Intent da query
-        intent = r.json()['topScoringIntent']['intent']
-        # Score do intent
-        score = r.json()['topScoringIntent']['score']
+            # Request da query
+            r = requests.get(
+                'https://westeurope.api.cognitive.microsoft.com/luis/v2.0/apps/31e88306-ab6d-475f-979b-a2d8920a1664',
+                headers = headers,
+                params = params)
 
-        # Ver se o próximo intent gerado anteriormente é mais preciso do que o atual
-        if score < float(next_i_p):
-            intent = next_i
+            # Intent da query
+            intent = r.json()['topScoringIntent']['intent']
+            # Score do intent
+            score = r.json()['topScoringIntent']['score']
 
-        # Função com as respostas
-        intents(intent, r, ex, score)
+            # Ver se o próximo intent gerado anteriormente é mais preciso do que o atual
+            if score < float(next_i_p):
+                intent = next_i
 
-        # Próximo intent e a sua probabilidade
-        next_i, next_i_p = next_intent(intent)
+            # Função com as respostas
+            intents(intent, r, ex, score)
 
-    except Exception as e:
-        print("[Errno {0}] {1}".format(e.errno, e.strerror))
+            # Próximo intent e a sua probabilidade
+            next_i, next_i_p = next_intent(intent)
+
+        except Exception as e:
+            print("[Errno {0}] {1}".format(e.errno, e.strerror))
